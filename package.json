@@ -1,0 +1,23 @@
+{
+  "name": "query-fb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "ts-node ./scripts/setup.ts",
+    "shell": "ts-node ./scripts/shell.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^6.5.0",
+    "chalk": "^3.0.0",
+    "firebase-admin": "^8.7.0",
+    "inquirer": "^7.0.0",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
